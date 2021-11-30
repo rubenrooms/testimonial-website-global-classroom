@@ -223,6 +223,20 @@ body {
     animation: testim-content-out .5s ease-in-out forwards;    
 }
 
+#voicetestim1, #voicetestim2{
+    display: flex;
+    justify-content: center;
+}
+#voicetestim1 h2, #voicetestim2 h2{
+    color: green;
+    font-size: 1em;
+    margin: 15px 0;
+}
+#testim1,#testim2,#testim3,#testim4,#testim5{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
 @-webkit-keyframes testim-scale {
     0% {
         -webkit-box-shadow: 0px 0px 0px 0px #eee;
